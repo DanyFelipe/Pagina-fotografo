@@ -1,0 +1,51 @@
+body, h1 {
+    font-family: "Raleway", Arial, sans-serif; /* Aplica la fuente "Raleway" como principal, Arial como alternativa */
+}
+
+header {
+    padding: 100px 15px;
+}
+
+.about-me{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 6px; /* Aumenta el espaciado entre letras en los títulos <h1> */
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px; /* Agrega un margen inferior de 12px a las imágenes dentro de elementos con clase "w3-row-padding" */
+}
+
+.form-contacto{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.popular-tags{
+    margin-top: 70px;
+}
+
+.titulo-enunciado{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.seccion-planes{
+    margin-bottom: 70px;
+    max-width:1500px
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        display: block; /* Cancelar Flexbox y apilar elementos */
+    }
+
+    /* Opcional: Agregar espacio extra entre la imagen y el contenido */
+    .about-me div {
+        margin-bottom: 20px;
+    }
+}
